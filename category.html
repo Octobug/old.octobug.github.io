@@ -1,0 +1,32 @@
+---
+title: 分类 
+layout: default
+---
+<div class="posttext" style="margin-bottom: 20px;">
+    <div class="posttitle">
+        <a href="{{ page.url }}">分类</a><hr>
+    </div>
+        {% for category in site.categories %}
+            <a href="#{{ category[0] }}" 
+            title="{{ category[0] }}" 
+            style="font-size: {{ category[1].size | divided_by:5 | times:20 | plus:100 }}%; opacity: 0.8" 
+            >{{ category[0] }}[{{ category[1].size }}]&nbsp;&nbsp;</a>
+        {% endfor %}
+</div>
+
+<div class="post">
+    <div class="posttext">
+            {% for category in site.categories %}
+            <blockquote id="{{ category[0] }}">{{ category[0] }}</blockquote>
+            <ul>
+                {% for post in category[1] %}
+                <li>
+                    <time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string}}</time>
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+    </div>
+    <div class="postfooter"></div>
+</div>

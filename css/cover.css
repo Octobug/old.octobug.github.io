@@ -1,0 +1,15 @@
+/* 对frame.css 样式的覆盖 */
+.posttitle {
+    font-size: 25px;
+}
+.postlist {
+    color:#BBB;
+    font-size: 14px;
+}
+.switchpage {
+    float: right;
+    display: inline;
+    height: 40px;
+    text-align: right;
+    line-height: 32px;
+}
