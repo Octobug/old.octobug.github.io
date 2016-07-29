@@ -2,7 +2,7 @@
 layout: post
 title: 用Jekyll在Github Pages搭建博客
 path: /images/post/
-category: Github
+tags: Github
 ---
 
 博客基本改造完毕.
