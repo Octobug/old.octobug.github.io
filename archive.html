@@ -1,39 +1,39 @@
 ---
-title: 归档 
+title: 归档
 layout: default
 ---
 <div class="posttext" style="margin-bottom: 20px;">
     <div class="posttitle">
-        <a href="{{ page.url }}">归档</a><hr>
+        <a href="{{ page.url }}"><i class="fa fa-archive"></i>&nbsp;&nbsp;归档</a><hr>
     </div>
     <ul>
         {% for post in site.posts %}
-        {% capture ym %}{{ post.date | date:"%Y 年 %m 月" }}{% endcapture %}
-        {% if yearmonth != ym %}
-        {% assign yearmonth = ym %}
-        <li><a href="#{{ ym }}">{{ ym }}</a></li>
+        {% capture y %}{{ post.date | date:"%Y 年" }}{% endcapture %}
+        {% if year != y %}
+        {% assign year = y %}
+        <li><a href="#{{ y }}">{{ y }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>
 </div>
 <div class="post">
     <div class="posttext">
-        {% assign yearmonth = '0' %}
-        {% for post in site.posts %}
-            {% capture ym %}{{ post.date | date:"%Y 年 %m 月" }}{% endcapture %}
-            {% if yearmonth != ym %}
-                {% if yearmonth != '0' %}
-                    </ul>
-                {% endif %}
-                <blockquote id="{{ ym }}">{{ ym }}</blockquote>
-                <ul>
+        {% assign year = 1970 %}
+        <ul>
+            {% for post in site.posts %}
+            {% capture y %}{{ post.date | date:"%Y 年" }}{% endcapture %}
+            {% if year != y %}
+            {% assign year = y %}
+            </ul>
+            <blockquote id="{{ y }}">{{ y }}</blockquote>
+            <ul>
             {% endif %}
             <li>
-            <time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <time datetime="{{ post.date }}">{{ post.date | date:"%m 月 %d 日" }}</time>
+            <a href="{{ post.url }}" title="{{ post.title }}">&nbsp;&nbsp;{{ post.title }}</a>
             </li>
-            {% assign yearmonth = ym %}
-        {% endfor %}
+            {% endfor %}
+        </ul>
     </div>
     <div class="postfooter"></div>
 </div>

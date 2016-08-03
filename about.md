@@ -1,6 +1,8 @@
 ---
 title: 关于
 layout: page
+id: about
+icon: fa-user
 ---
 <br>
 专业
