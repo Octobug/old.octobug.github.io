@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
 <head>
   <meta charset="utf-8">
   <!-- 外部样式 -->
@@ -43,67 +43,73 @@
   <!-- 页脚 -->
   <div class="footer">
     ©
-    <a href="">OctoBug</a>&nbsp;|&nbsp;Powered by
+    <a href="">OctoBug</a>
+    &nbsp;|&nbsp;Powered by
     <a href="http://jekyllrb.com/">Jekyll&nbsp;|&nbsp;</a>
     <link rel="stylesheet" href="{{ site.baseurl }}css/font-awesome.css">
-    <a href="{{ site.author.github }}" target="_blank">
-      <i class="fa fa-github fa-lg"></i>&nbsp;
+    <a href="{{ site.author.github }}" target="_blank"> <i class="fa fa-github fa-lg"></i>
+      &nbsp;
     </a>
-    <a href="{{ site.author.weibo }}" target="_blank">
-      <i class="fa fa-weibo fa-lg"></i>&nbsp;
+    <a href="{{ site.author.weibo }}" target="_blank"> <i class="fa fa-weibo fa-lg"></i>
+      &nbsp;
     </a>
     <a href="{{ site.author.qzone }}" target="_blank">
-      <i class="fa fa-star-o fa-lg"></i>&nbsp;
+      <i class="fa fa-star-o fa-lg"></i>
+      &nbsp;
     </a>
-    </a><a href="{{ site.baseurl }}{{ site.author.weixin }}" target="_blank">
-      <i class="fa fa-wechat fa-lg"></i>
-    </a>
-    <!--<a href="{{ site.author.wooyun }}" target="_blank">
-      <span class="fa-stack fa-lg">
-      <i class="fa fa-cloud fa-stack-1x"></i>
-      <i class="fa fa-flash fa-stack-1x" style="color: rgba(21, 21, 21, 1)"></i>
-      </span>
-    </a>-->
-    <div class="row">
+  </a>
+  <a href="{{ site.baseurl }}{{ site.author.weixin }}" target="_blank">
+    <i class="fa fa-wechat fa-lg"></i>
+  </a>
+  <!--<a href="{{ site.author.wooyun }}" target="_blank">
+  <span class="fa-stack fa-lg">
+    <i class="fa fa-cloud fa-stack-1x"></i>
+    <i class="fa fa-flash fa-stack-1x" style="color: rgba(21, 21, 21, 1)"></i>
+  </span>
+</a>
+-->
+<div class="row">
 
-      <div class="col-sm-offset-3 col-md-offset-3 col-md-6 text-center">
-        {% if site.github_username %}
-        <span>
-          <a class="header-link" href="https://github.com/{{ site.github_username }}" target="_blank"> <i class="fa fa-2x fa-github-square 3x"></i>
-          </a>
-        </span>
-        {% endif %}
+  <div class="col-sm-offset-3 col-md-offset-3 col-md-6 text-center">
+    {% if site.github_username %}
+    <span>
+      <a class="header-link" href="https://github.com/{{ site.github_username }}" target="_blank">
+        <i class="fa fa-2x fa-github-square 3x"></i>
+      </a>
+    </span>
+    {% endif %}
 
 
             {% if site.twitter_username %}
-        <span>
-          <a class="header-link" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"> <i class="fa fa-2x fa-twitter 3x"></i>
-          </a>
-        </span>
-        {% endif %}
+    <span>
+      <a class="header-link" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+        <i class="fa fa-2x fa-twitter 3x"></i>
+      </a>
+    </span>
+    {% endif %}
 
             {% if site.portfolio_url %}
-        <span>
-          <a class="header-link" href="{{ site.portfolio_url }}"  target="_blank">
-            <i class="fa fa-2x fa-laptop"></i>
-            aaaa
-          </a>
-        </span>
-        {% endif %}
+    <span>
+      <a class="header-link" href="{{ site.portfolio_url }}"  target="_blank">
+        <i class="fa fa-2x fa-laptop"></i>
+        aaaa
+      </a>
+    </span>
+    {% endif %}
 
 
             {% if site.facebook_username %}
-        <span>
-          <a class="header-link" href="https://facebook.com/{{ site.facebook_username }}"  target="_blank">
-            <i class="fa fa-2x fa-facebook-square "></i>
-          </a>
-        </span>
-        {% endif %}
-      </div>
-
-    </div>
-
+    <span>
+      <a class="header-link" href="https://facebook.com/{{ site.facebook_username }}"  target="_blank">
+        <i class="fa fa-2x fa-facebook-square "></i>
+      </a>
+    </span>
+    {% endif %}
   </div>
+
+</div>
+
+</div>
 </body>
-  <!-- 页脚结束 -->
-  <!-- gostats 统计 -->{% include gostats.html %}</html>
+<!-- 页脚结束 -->
+<!-- gostats 统计 -->{% include gostats.html %}</html>

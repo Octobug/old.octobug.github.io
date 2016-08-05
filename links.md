@@ -1,6 +1,8 @@
 ---
 title: 链接
 layout: page
+id: links
+icon: fa-link
 ---
 
 被我挂在这里的，都是我要学习的
