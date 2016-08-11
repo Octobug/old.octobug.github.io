@@ -1,17 +1,18 @@
 /* 对frame.css 样式的覆盖 */
-body {
+/*body {
     min-width: 1200px;
-}
+} */
 .posttitle {
     font-size: 25px;
 }
 .postlist {
-    width: 800px;
+    /*width: 800px;*/
     color:#BBB;
-}
-.postcontent {
     font-size: 14px;
 }
+/*.postcontent {
+    font-size: 26px;
+}*/
 .switchpage {
     float: right;
     display: inline;
