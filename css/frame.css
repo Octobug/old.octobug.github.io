@@ -9,7 +9,7 @@ html {
 
 body {
     color: #888;
-    font: 12px/200% "微软雅黑","Microsoft YaHei","arial";
+    font: 13px/200% "微软雅黑","Microsoft YaHei","arial";
     padding: 0px;
     margin: 0px;
 }
@@ -57,11 +57,11 @@ a:hover {
     width: 750px;
 }
 .post {
-    background: none repeat scroll 0% 0% rgba(21, 21, 21, 0.7);
+    background: none repeat scroll 0% 0% rgba(21, 21, 21, 0.75);
     margin-bottom: 40px;
 }
 .posttitle {
-    font-size: 20px;
+    font-size: 21px;
 }
 .posttext {
     padding: 26px 40px 0px;
@@ -126,7 +126,7 @@ a:hover {
 /* 主体结束 */
 /* 页脚 */
 .footer {
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8);
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.85);
     color: #666;
     position: fixed;
     bottom: 0px;
@@ -167,17 +167,17 @@ blockquote {
     padding-left: 1.0em;
 }
 ::-moz-selection{   /*针对Firefox*/
-    background: none repeat scroll 0% 0% rgba(11, 83, 125, 0.25);
+    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
 }
 
 ::selection {
-    background: none repeat scroll 0% 0% rgba(11, 83, 125, 0.5);
+    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
 }
 
 code::-moz-selection { /*code是标签选择器，可以换成p或span等*/
-    background: none repeat scroll 0% 0% rgba(11, 83, 125, 0.5);
+    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
 }
 
 code::selection {
-    background: none repeat scroll 0% 0% rgba(11, 83, 125, 0.5);
+    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
 }
