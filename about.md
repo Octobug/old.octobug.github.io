@@ -9,7 +9,7 @@ icon: fa-user
 ---
 
 * bITeMe~~bitch~~ | Octobug
-* 真 · 码农 | 毕业于某农业大学软件工程，2017
+* 真 · 码农 毕业于某农业大学软件工程，2017
 * CTF 酱油户
 * 脚本小子
 
@@ -33,12 +33,14 @@ icon: fa-user
 
 信仰
 ---
+
 * Flying Spaghetti Monster ( 飞天面条神教 ) | 神爱世人，祂为我们的罪下了油...水锅...
 * In Spaghetti we trust.
 * RAmen.
 
 关于本站
 --------
+
 * Powered by [Jekyll](http://jekyllrb.com/) 
 * Hosted by [Github](https://github.com)
 * 博客模板使用 [silk-jekyll-theme](https://github.com/lastavenger/silk-jekyll-theme)，Copyright [LastAvengers](http://lastavenger.github.io/)

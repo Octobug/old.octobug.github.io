@@ -3,8 +3,8 @@ gems: [jekyll-paginate]
 paginate: 7
 paginate_path: "page:num"
 encoding: utf-8
-markdown: kramdown
-# markdown: rdiscount
+#markdown: kramdown
+markdown: rdiscount
 # 作者信息
 author: 
   github: http://github.com/octobug
