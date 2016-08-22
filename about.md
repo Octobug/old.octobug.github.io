@@ -8,33 +8,25 @@ icon: fa-user
 关于我
 ---
 
-* bITeMe~~bitch~~ | Octobug
-* 真 · 码农 | 毕业于某农业大学软件工程，2017
+* bITeMe<del>bitch</del> & Octobug
+* 真 · 码农，毕业于某农业大学软件工程，2017
 * CTF 酱油户
 * 脚本小子
 
 爱好
 ---
-<ul>
-	<li>
-	手残素描党
-	<li>
-		经常混迹<a href="http://www.guokr.com/i/0466223402/" target="_blank">『果壳』</a>, 
-		<a href="http://www.zhihu.com/people/donotbiteme" target="_blank">『知乎』</a>
-	</li>
-	<li>
-		<a href="http://www.douban.com/people/bitemebitch/" target="_blank">『豆瓣』</a>
+
+* 手残素描党
+* 经常混迹<a href="http://www.guokr.com/i/0466223402/" target="_blank">『果壳』</a>, <a href="http://www.zhihu.com/people/donotbiteme" target="_blank">『知乎』</a>
+* <a href="http://www.douban.com/people/bitemebitch/" target="_blank">『豆瓣』</a>
 		资深打分员
-	</li>
-	<li>
-	<s>喜欢摄影，暂时荒废</s>
-	</li>
-</ul>
+* <del>喜欢摄影，暂时荒废</del>
 
 信仰
 ---
 
-* Flying Spaghetti Monster ( 飞天面条神教 ) | 神爱世人，祂为我们的罪下了油...水锅...
+* Flying Spaghetti Monster ( 飞天面条神教 )
+☀ 神爱世人，祂为我们的罪下了油...水锅...
 * In Spaghetti we trust.
 * RAmen.
 

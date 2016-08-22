@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 用Jekyll在Github Pages搭建博客
-path: /images/post/
+title: 用 Jekyll 在 Github Pages 搭建博客
 tags: Github
 ---
 
@@ -11,14 +10,17 @@ N久前看到<a href="http://lastavenger.github.io" target="_blank"> 谷月轩 <
 
 直到前几天尝试在本地搭了VPN服务, 其中遇到了一些剧本之外的问题, 想写点学习笔记总结下, 才发现之前在SAE一键安装的wordpress博客系统不是我想要的样子, 而我php还没学感觉改造起来有难度, 加上Github Pages不限流量, 所以决定在Github Pages上边动手.
 
-###Github Pages:
+* 目录：
+{:toc}
+
+### Github Pages
 
 点<a href="https://guides.github.com/features/pages/" target="_blank"> [我] </a>获取官方文档.
 
-####注意: 
+#### 注意
 只有以名为`Github账户名.github.io`形式的repository发布才是可以直接以`http://Github账户名.github.io`访问的, 并且是以master分支发布. 其他命名形成的链接形式为`http://Github账户名.github.io/仓库名`, 以gh-pages分支发布.
 
-###参考顺序:
+### 参考顺序
 
 <ol>
     <li>
@@ -29,7 +31,7 @@ N久前看到<a href="http://lastavenger.github.io" target="_blank"> 谷月轩 <
         <br>
         注意: 如果DevKit安装出错, 请打开解压出来的文件夹中的"config.yml"
         在最后加上两行ruby的安装目录, 就像这样:<br>
-        <img src="{{page.path}}devkit-config-yml.png" style="width: 500px;"><br>
+        <img src="http://r.photo.store.qq.com/psb?/V11aPCg508qwno/RuqhOxqTl.0lHrwhD0c7simEGRgSdEYMHbU6LqPydbk!/r/dG8BAAAAAAAA" style="width: 100%;"><br>
         之后再继续按教程操作.
     </li>
     <li>
@@ -42,7 +44,7 @@ N久前看到<a href="http://lastavenger.github.io" target="_blank"> 谷月轩 <
     </li>
 </ol>
 
-###Jekyll模板: 
+### Jekyll模板
 
 <a href="http://jekyllthemes.org/" target="_blank">Jekyll Themes</a> 有很多优秀的模板, 然而我是直接fork谷月轩的. 地址: <a href="https://github.com/LastAvenger/LastAvenger.github.io" target="_blank">LastAvenger/LastAvenger.github.io</a>
 
