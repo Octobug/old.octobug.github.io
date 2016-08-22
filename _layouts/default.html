@@ -5,8 +5,9 @@
   <!-- 外部样式 -->
   <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}css/frame.css">
   <link rel="shortcut icon" href="{{ site.baseurl }}images/favicon.png">
-  <title>{{ page.title }} | More than codes</title>
   <script src="{{ site.baseurl }}js/viewimg.js"></script>
+  <script src="{{ site.baseurl }}js/showQRcode.js"></script>
+  <title>{{ page.title }} | More than codes</title>
 </head>
 <body>
   <!-- 侧边栏 -->
@@ -55,11 +56,13 @@
     <a href="{{ site.author.qzone }}" target="_blank">
       <i class="fa fa-star-o fa-lg"> </i>
     </a>
-    <a href="{{ site.baseurl }}{{ site.author.weixin }}" target="_blank">
-      <i class="fa fa-wechat fa-lg"> </i>
+    <a href="javascript:void(0);" onclick="showWin();return false;">
+      <i class="fa fa-wechat fa-lg"></i>
     </a>
     <!--图标链接结束-->
   </div>
+  <div id="bgDiv"></div>
+  <div id="msgDiv" align="center"></div>
 </body>
 <!-- 页脚结束 -->
 <!-- gostats 统计 -->
