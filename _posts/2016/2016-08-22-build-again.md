@@ -33,7 +33,7 @@ tags: Github
 
 右上角的叉是抄微博的...比较简单，直接贴代码吧。
 
-html.html: 
+`html.html`: 
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ html.html:
 </body>
 </html>
 ```
-js.js:
+`js.js`:
 
 ```javascript
 function showWin()
@@ -84,7 +84,7 @@ function closeWin()
     document.getElementById("msgDiv").style.display="none";
 }
 ```
-css.css:
+`css.css`:
 
 ```css
 /*微信图标弹窗*/

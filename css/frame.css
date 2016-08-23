@@ -23,7 +23,7 @@ a:hover {
     color: #FFF;
     text-decoration: none;
     transition: all 0.3s ease 0.1s; 
-    text-shadow: 0px 0px 10px #46CFFD;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
 } 
 /* 侧边栏 */
 .sidebar {
@@ -168,19 +168,21 @@ blockquote {
     padding-left: 1.0em;
 }
 ::-moz-selection{   /*针对Firefox*/
-    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
+	color: #000;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.4);
 }
 
 ::selection {
-    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
+	color: #000;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.4);
 }
 
 code::-moz-selection { /*code是标签选择器，可以换成p或span等*/
-    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.4);
 }
 
 code::selection {
-    background: none repeat scroll 0% 0% rgba(5, 57, 97, 0.5);
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.4);
 }
 
 /*微信图标弹窗*/
