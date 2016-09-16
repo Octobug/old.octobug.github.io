@@ -27,7 +27,7 @@ tags: NCTF Write-up Web
 
 `源码`:
 
-```php
+```javascript
 <?php
 $md51 = md5('QNKCDZO');
 $a = @$_GET['a'];
