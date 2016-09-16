@@ -10,7 +10,7 @@ tags: NCTF Write-up Web
 {:toc}
 
 ### 50 签到题
-* 题目: 
+* 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/YZKk.MnhsHV20m2faJoUnCwavg7I24ae3SFgKV5jj*0!/r/dAkBAAAAAAAA){: width="80%"}
 
 * 链接: [题目地址](http://chinalover.sinaapp.com/web1/)
@@ -22,7 +22,7 @@ tags: NCTF Write-up Web
 * flag：nctf{flag_admiaanaaaaaaaaaaa}
 
 ### 50 md5 collision 
-* 题目: 
+* 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/kzrQvlKVMT2YmULi6OdkgLYsaSzNuJwg5cXSNWiZS3s!/r/dAkBAAAAAAAA){: width="80%"}
 
 `源码`:
