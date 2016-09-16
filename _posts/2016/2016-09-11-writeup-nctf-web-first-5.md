@@ -20,6 +20,7 @@ tags: NCTF Write-up Web
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/M*eMT5pfE2PSGyfMhVTsK4a8MZ4yb3Lgi1Fq.kpD9iw!/r/dAQBAAAAAAAA){: width="100%"}
 
 * flag：nctf{flag_admiaanaaaaaaaaaaa}
+<hr>
 
 ### 50 md5 collision 
 * 题目:  
@@ -27,7 +28,7 @@ tags: NCTF Write-up Web
 
 `源码`:
 
-```javascript
+```php
 <?php
 $md51 = md5('QNKCDZO');
 $a = @$_GET['a'];
@@ -62,12 +63,38 @@ else
 访问 [http://115.28.150.176/md5/index.php?a=240610708 ](http://115.28.150.176/md5/index.php?a=240610708) 可得到 flag.
 
 * flag：nctf{md5_collision_is_easy}
-
-
-
+<hr>
 
 ### 50 签到2
+* 题目:  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/KolXVNeNqcO3QaTLYumRlsLW1HIQ2ScY4R5tjcE9jlg!/r/dAoBAAAAAAAA){: width="80%"}
+
+* 链接: [题目地址](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)
+
+* 题解:
+浏览器直接 F12, 看网页源码:
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/aBoxjkmkGkk0eEDDAPJrbjwzAJ7hiUCtCdh67nI*WLo!/r/dAQBAAAAAAAA){: width="100%"}
+
+很明显, 'zhimakaimen'的长度是 11 ,而输入框是:
+
+```html
+<input type="password" value="" name="text1" maxlength="10">
+```
+
+maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输入不进去的, 自然也就开不了门.
+
+所以直接把 maxlength 属性改成大于等于 11 即可.
+
+如图:
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/gGtEvOfU0FaZowBVEn.EbyhQLgbdZMNcm2XGS39U*RY!/r/dAgBAAAAAAAA){: width="100%"}
+
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/2R1gzdsSa9d5PSmsupxNzHTsku47l39tUVPQOhrXL2U!/r/dMYAAAAAAAAA){: width="100%"}
+
+* flag：nctf{follow_me_to_exploit}
+<hr>
 
 ### 100 这题不是WEB
+
+<hr>
 
 ### 100 层层递进
