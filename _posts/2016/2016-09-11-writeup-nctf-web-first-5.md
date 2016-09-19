@@ -4,6 +4,8 @@ title: NCTF Web 前 5 题题解
 tags: NCTF Write-up Web
 ---
 
+推荐这个 CTF 训练营先: [南京邮电大学网络攻防训练平台](http://ctf.nuptzj.cn/)
+
 这几题很简单, 但是写 Write-up 不写所有题目, 浑身难受.
 
 * 目录：
