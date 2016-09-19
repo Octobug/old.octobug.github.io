@@ -25,7 +25,8 @@ tags: NCTF Write-up Misc
 该 HTTP 请求是 GET 方法, 按理下文应该有返回包, 所以跟踪该 TCP 流:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/FQOhD*lLRP87txf2Yc7MIFssNb7M*irOsbKtEnJEX0g!/r/dG8BAAAAAAAA){: width="100%"}
 
-或者直接访问 [http://115.28.150.176/misc/flag.php](http://115.28.150.176/misc/flag.php) 也可得到 flag.
+或者直接访问 [http://115.28.150.176/misc/flag.php](http://115.28.150.176/misc/flag.php) 也可得到 flag. 
+
 * flag：nctf{wireshark_is_easy}
 <hr>
 
