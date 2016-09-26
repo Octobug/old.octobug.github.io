@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NCTF 密码学 前 5 题题解
+title: NCTF 密码学 5 题题解（Part 0）
 tags: NCTF Write-up Crypto
 ---
 

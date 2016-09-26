@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NCTF 隐写术 前 3 题题解
+title: NCTF 隐写术 3 题题解
 tags: NCTF Write-up Steganography
 ---
 
@@ -9,7 +9,10 @@ tags: NCTF Write-up Steganography
 
 ### 50 女神 
 * 题目:  
-![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/UhLwVOZFh*rleRbZcYOeg00p9yK9gXlhOceSvc6Xe08!/r/dAkBAAAAAAAA){: width="80%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/UhLwVOZFh*rleRbZcYOeg00p9yK9gXlhOceSvc6Xe08!/r/dAkBAAAAAAAA){: width="80%"}  
+	
+	> 听说这是女神的私房照，里面藏着flag哦
+	> http://115.28.150.176/misc1.jpg
 
 * 链接: [题目地址](http://115.28.150.176/misc1.jpg)
 

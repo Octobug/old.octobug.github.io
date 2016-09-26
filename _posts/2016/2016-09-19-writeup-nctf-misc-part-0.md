@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NCTF Misc 前 2 题题解
+title: NCTF Misc 2 题题解
 tags: NCTF Write-up Misc
 ---
 
