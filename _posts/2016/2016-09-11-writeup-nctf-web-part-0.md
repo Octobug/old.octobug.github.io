@@ -5,7 +5,7 @@ tags: NCTF Write-up Web
 ---
 
 推荐这个 CTF 训练营先: [南京邮电大学网络攻防训练平台](http://ctf.nuptzj.cn/)
-大部分题目不算难, 不过 CTF 题型还是蛮典型的.
+大部分题目不算难, 不过作为 CTF 题型来讲还是蛮典型的.
 
 这几题很简单, 但是写 Write-up 不写所有题目, 浑身难受.
 
@@ -69,18 +69,16 @@ else
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/KolXVNeNqcO3QaTLYumRlsLW1HIQ2ScY4R5tjcE9jlg!/r/dAoBAAAAAAAA){: width="80%"}
 
-* 链接: [题目地址](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)
+	> 地址：[来源：网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)
 
 * 题解:
 浏览器直接 F12, 看网页源码:
-![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/aBoxjkmkGkk0eEDDAPJrbjwzAJ7hiUCtCdh67nI*WLo!/r/dAQBAAAAAAAA){: width="100%"}
-
-很明显, 'zhimakaimen'的长度是 11 ,而输入框是:
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/aBoxjkmkGkk0eEDDAPJrbjwzAJ7hiUCtCdh67nI*WLo!/r/dAQBAAAAAAAA){: width="100%"}  
+很明显, 'zhimakaimen'的长度是 11 ,而输入框是: 
 
 ```html
 <input type="password" value="" name="text1" maxlength="10">
-```
-
+``` 
 maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输入不进去的, 自然也就开不了门.
 
 所以直接把 maxlength 属性改成大于等于 11 即可.
@@ -94,7 +92,20 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 <hr>
 
 ### 100 这题不是WEB
+* 题目:  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/dxY57IUS319An4hxEN90cJCIwPhlxnKAh4MwuC6b84I!/r/dHcBAAAAAAAA){: width="80%"}
 
+	> 真的，你要相信我！这题不是WEB
+	> 传送门：[题目地址](http://chinalover.sinaapp.com/web2/index.html).
+
+* 题解:
+这题是真坑, 好在不难. 打开地址, 页面是这样的: 
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/0KgLCYk5yfqeJGbA166CLmlW6tr4Ruee69U*gpLgy0s!/r/dPgAAAAAAAAA){: width="100%"}  
+网页源码, cookie, http header 均没有特殊的东西, 用 fiddler 拦截也没有发现跳转, 那只能试试那张 gif 有没有东西了...  
+下载下来, 改成 rar 后缀, winrar 识别不了, 所以试试直接看文件内容, 用记事本打开, 结果...  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/nqyymPfUP2Mo9Fov5Ps6tM1VJYiNsQZo8iF6UcLdRmA!/r/dOQAAAAAAAAA){: width="100%"}  
+
+* flag：nctf{photo_can_also_hid3_msg}
 <hr>
 
 ### 100 层层递进

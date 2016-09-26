@@ -11,15 +11,13 @@ tags: NCTF Write-up Misc
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/SmRlvayblhs3xutKcX5CDznXRG09iggTZjLLkbOj99Y!/r/dHABAAAAAAAA){: width="80%"}
 
-* 链接: [题目地址](http://115.28.150.176/wireshark.pcapng)
+	> 听说抓到他浏览网页的包,flag就在网页里
+	> 下载地址 [http://115.28.150.176/wireshark.pcapng](http://115.28.150.176/wireshark.pcapng)
 
-* 题解:
-
-1. 把 pcapng 下载下来
-
-2. 用 wireshark 打开
-
-3. 分值这么低的题, 一般先找找字符串...所以, 用 wireshark 的`显示过滤器`:  
+* 题解: 
+	1. 下载链接给的 pcapng 
+	2. 用 wireshark 打开
+	3. 分值这么低的题, 一般先找找字符串...所以, 用 wireshark 的`显示过滤器`:  
 输入`http.request.uri matches "flag"` 
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/yoR*j.98hY.bNskxG1gBDvHevW2BJXmzmbXMc*NlLdw!/r/dHABAAAAAAAA){: width="100%"}
 该 HTTP 请求是 GET, 按理下文应该有返回包, 所以跟踪该 TCP 流:
