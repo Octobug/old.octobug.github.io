@@ -11,16 +11,16 @@ tags: NCTF Write-up Reverse
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/6CHnnS2dNAzvHuf8a96kk2J9QBQfzdbMUUXzIp6BzJU!/r/dOUAAAAAAAAA){: width="80%"}
 
-	> 或许你需要去学习下IDA的使用，但是只需要学一点点就能做这题了 
-	> PS:IDA里面按R可以把奇怪的数字变成字符串 
+	> 或许你需要去学习下IDA的使用，但是只需要学一点点就能做这题了  
+	> PS:IDA里面按R可以把奇怪的数字变成字符串  
 	> 
-	> 格式为flag{*****}包含flag{}提交 
+	> 格式为flag{*****}包含flag{}提交  
 	> 
 	> 参考资料：  
 	> 《IDA Pro 权威指南》  
 	> 各种CTF比赛的逆向部分的writeup   
 
-	> [1.exe](http://ctf.nuptzj.cn/static/uploads/0b562710385edcf655dfa0ae65c69592/1.exe)
+	> [1.exe](http://ctf.nuptzj.cn/static/uploads/0b562710385edcf655dfa0ae65c69592/1.exe)  
 
 * 题解: 
 1. 下载 1.exe
