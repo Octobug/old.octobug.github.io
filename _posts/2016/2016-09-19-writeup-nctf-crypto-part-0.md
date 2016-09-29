@@ -11,8 +11,8 @@ tags: NCTF Write-up Crypto
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/hD58R0mDJiyF4yACAFYXFymoREshDla9fAoSNAglfe8!/r/dHABAAAAAAAA){: width="80%"}  
 
-	> 密文：bmN0Znt0aGlzX2lzX2Jhc2U2NF9lbmNvZGV9
-	> 这题做不出来就剁手吧！
+	> 密文：bmN0Znt0aGlzX2lzX2Jhc2U2NF9lbmNvZGV9  
+	> 这题做不出来就剁手吧！  
 
 * 题解:
 很明显是 base64 编码...

@@ -11,8 +11,8 @@ tags: NCTF Write-up Steganography
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/UhLwVOZFh*rleRbZcYOeg00p9yK9gXlhOceSvc6Xe08!/r/dAkBAAAAAAAA){: width="80%"}  
 	
-	> 听说这是女神的私房照，里面藏着flag哦
-	> http://115.28.150.176/misc1.jpg
+	> 听说这是女神的私房照，里面藏着flag哦  
+	> http://115.28.150.176/misc1.jpg  
 
 * 链接: [题目地址](http://115.28.150.176/misc1.jpg)
 

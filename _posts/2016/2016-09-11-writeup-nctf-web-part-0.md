@@ -16,8 +16,8 @@ tags: NCTF Write-up Web
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/YZKk.MnhsHV20m2faJoUnCwavg7I24ae3SFgKV5jj*0!/r/dAkBAAAAAAAA){: width="80%"}  
 
-	> 这一定是最简单的 
-	> 传送门：[题目地址](http://chinalover.sinaapp.com/web1/)  
+	> 这一定是最简单的  
+	> 传送门：[题目地址](http://chinalover.sinaapp.com/web1/)   
 
 * 题解:
 浏览器直接 F12, 看网页源码:
@@ -30,7 +30,7 @@ tags: NCTF Write-up Web
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/kzrQvlKVMT2YmULi6OdkgLYsaSzNuJwg5cXSNWiZS3s!/r/dAkBAAAAAAAA){: width="80%"}
 
-> 源码: 
+> 源码:   
 
 ```php
 <?php
@@ -56,7 +56,7 @@ else
 ```
 > 题目链接 [http://115.28.150.176/md5/index.php](http://115.28.150.176/md5/index.php) 
 
-* 题解:
+* 题解: 
 从代码上看, 就是要`参数 $a` md5 加密后与 'QNKCDZO' md5 加密后相等, 且 $a 不能等于 $md51, 'QNKCDZO' 必有其特殊性, 搜索该字符串: [Stack Overflow 相关问题](http://stackoverflow.com/questions/22140204/why-md5240610708-is-equal-to-md5qnkcdzo) 
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/tYp05KNrJCDiApfRZurLEQ79jQl4w4l7zVsOS3aE.TA!/r/dAMBAAAAAAAA){: width="100%"}  
 题目中的解答已经说得很清楚, '240610708' 与 'QNKCDZO' md5 之后的值都是 `0e` 开头, 后面都是数字, 这种格式是浮点数( 科学计数法 ), 而 0 的 10^N 次方是 0 , 所有最后两串 md5 的 == 运算是相等的. 如果要比较的是字符串, 应当使用 === 运算. 
@@ -69,7 +69,7 @@ else
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/KolXVNeNqcO3QaTLYumRlsLW1HIQ2ScY4R5tjcE9jlg!/r/dAoBAAAAAAAA){: width="80%"}
 
-	> 地址：[来源：网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php) 
+	> 地址：[来源：网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)   
 
 * 题解:
 浏览器直接 F12, 看网页源码:
@@ -95,8 +95,8 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/dxY57IUS319An4hxEN90cJCIwPhlxnKAh4MwuC6b84I!/r/dHcBAAAAAAAA){: width="80%"}
 
-	> 真的，你要相信我！这题不是WEB 
-	> 传送门：[题目地址](http://chinalover.sinaapp.com/web2/index.html). 
+	> 真的，你要相信我！这题不是WEB   
+	> 传送门：[题目地址](http://chinalover.sinaapp.com/web2/index.html).   
 
 * 题解:
 这题是真坑, 好在不难. 打开地址, 页面是这样的: 
