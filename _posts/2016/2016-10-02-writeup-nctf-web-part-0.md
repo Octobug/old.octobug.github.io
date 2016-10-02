@@ -116,12 +116,12 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 	> 欢迎大家关注他的微博~
 	> 题目传送门:[题目地址](http://chinalover.sinaapp.com/web3/)  
 
-* 题解:
-妥妥的脑洞题, 扫了一下也没发现什么其他网址, F12 看网站结构, flag是...  
+* 题解:  
+妥妥的脑洞题, 扫了一下也没发现什么其他网址, F12 看网站结构, flag是:    
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/TF6EH6A5GCI9OF0N*dgUxXhFN5T7h1SudXN43cWTRGg!/r/dAkBAAAAAAAA){: width="100%"}  
 
 * flag：nctf{this_is_a_fl4g}
 <hr>
 <div style="float:right">
-	<a href="http://127.0.0.1:6582/2016/10/02/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）
+	<a href="http://127.0.0.1:6582/2016/10/02/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）  
 </div>
