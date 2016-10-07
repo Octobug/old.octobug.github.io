@@ -34,5 +34,5 @@ icon: fa-user
 --------
 
 * Powered by [Jekyll](http://jekyllrb.com/) 
-* Hosted by [Github](https://github.com)
+* Hosted on [Github](https://github.com)
 * 博客模板使用 [silk-jekyll-theme](https://github.com/lastavenger/silk-jekyll-theme)，Copyright [LastAvengers](http://lastavenger.github.io/)

@@ -123,5 +123,5 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 * flag：nctf{this_is_a_fl4g}
 <hr>
 <div style="float:right">
-	<a href="http://127.0.0.1:6582/2016/10/02/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）  
+	<a href="/2016/10/07/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）   
 </div>
