@@ -16,7 +16,7 @@ tags: NCTF Write-up Steganography
 
 * 链接: [题目地址](http://115.28.150.176/misc1.jpg)
 
-* 题解:
+* 题解:  
 分值这么低, 正常思路是解压成rar, 或者直接看二进制内容. 将图片另存到本地, 用记事本打开图片, 搜nctf: 
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/eL3UfGlFbcT60bvzKPgxLKCO0WztgKo8xvYkc91pTns!/r/dHABAAAAAAAA){: width="100%"}
 

@@ -14,7 +14,7 @@ tags: NCTF Write-up Web
 	> javascript aaencode  
 	> [http://115.28.150.176/aaencode.txt](http://115.28.150.176/aaencode.txt)  
 
-* 题解:
+* 题解:  
 都提示是 JavaScript 了, 用浏览器的 console 跑一下试试看:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/7emM69dnS7ZiLfZmcGMc1mk0P7QN6H3wAiN4oNL7DWc!/r/dK0AAAAAAAAA){: width="100%"}  
 
@@ -29,7 +29,7 @@ tags: NCTF Write-up Web
 	> 老夫单身二十年，自然靠的是手速！  
 	> 题目地址：[撸了他！](http://chinalover.sinaapp.com/web8/)  
 
-* 题解:
+* 题解:  
 点第一个页面的链接, 仔细看的话能看出有跳转, 我手速真的很快, 尝试了一次就把中间那张图给截下来了:   
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/UJ8QZWkWjyr2Hb3Hn2cJ13jGbavVW50o85ufVdzGJ.4!/r/dHwBAAAAAAAA){: width="100%"}  
 有跳转当然要用拦截工具了, Fiddler F11:  

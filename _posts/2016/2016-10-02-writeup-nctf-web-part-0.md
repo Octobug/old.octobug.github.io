@@ -19,7 +19,7 @@ tags: NCTF Write-up Web
 	> 这一定是最简单的  
 	> 传送门：[题目地址](http://chinalover.sinaapp.com/web1/)   
 
-* 题解:
+* 题解:  
 浏览器直接 F12, 看网页源码:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/M*eMT5pfE2PSGyfMhVTsK4a8MZ4yb3Lgi1Fq.kpD9iw!/r/dAQBAAAAAAAA){: width="100%"}
 
@@ -71,7 +71,7 @@ else
 
 	> 地址：[来源：网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)   
 
-* 题解:
+* 题解:  
 浏览器直接 F12, 看网页源码:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/aBoxjkmkGkk0eEDDAPJrbjwzAJ7hiUCtCdh67nI*WLo!/r/dAQBAAAAAAAA){: width="100%"}  
 很明显, 'zhimakaimen'的长度是 11 ,而输入框是: 
@@ -98,7 +98,7 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 	> 真的，你要相信我！这题不是WEB   
 	> 传送门：[题目地址](http://chinalover.sinaapp.com/web2/index.html).   
 
-* 题解:
+* 题解:  
 这题是真坑, 好在不难. 打开地址, 页面是这样的: 
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/0KgLCYk5yfqeJGbA166CLmlW6tr4Ruee69U*gpLgy0s!/r/dPgAAAAAAAAA){: width="100%"}  
 网页源码, cookie, http header 均没有特殊的东西, 用 fiddler 拦截也没有发现跳转, 那只能试试那张 gif 有没有东西了...  
@@ -123,5 +123,5 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 * flag：nctf{this_is_a_fl4g}
 <hr>
 <div style="float:right">
-	<a href="/2016/10/07/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）   
+	<a href="/2016/10/07/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）</a>   
 </div>
