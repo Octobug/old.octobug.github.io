@@ -56,6 +56,41 @@ tags: NCTF Write-up Web
 <hr>
 
 ### 100 php decode  
+* 题目:  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/1mXB.qFELl2GEUfhE6ulQMICaWnfaI1LQ7fTvxPlYEk!/r/dAoBAAAAAAAA){: width="80%"}  
+
+	> 见到的一个类似编码的shell，请解码   
+	> 
+	> ```php   
+	<?php
+	function CLsI($ZzvSWE) {
+		$ZzvSWE = gzinflate(base64_decode($ZzvSWE));
+		for ($i = 0; $i < strlen($ZzvSWE); $i++) {
+			$ZzvSWE[$i] = chr(ord($ZzvSWE[$i]) - 1);
+		}
+		return $ZzvSWE;
+	}
+	eval(CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));
+	?>
+	> ```  
+	> 
+
+* 题解:   
+	首先运行题目给的代码, 结果解释器报错:  
+
+	> Parse error: syntax error, unexpected '{' in D:\Course\CTF\NCTF\php decode\decode.php(16) : eval()'d code on line 2  
+
+	那么回来看看出错的代码: `eval(CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));` 
+	eval 的参数必须是一个合法的 php 语句, 那么还是先把 eval 的参数输出看看再说, 代码改成`echo CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));`, 结果输出如下:
+
+	> 锘縫hpinfo();  
+	> flag:nctf{gzip_base64_hhhhhh}  
+
+* flag：nctf{gzip_base64_hhhhhh}   
+
+
+
+
 <hr>
 
 ### 150 文件包含  

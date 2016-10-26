@@ -25,10 +25,10 @@ icon: fa-user
 信仰
 ---
 
-* Flying Spaghetti Monster ( 飞天面条神教 )
-☀ 神爱世人，祂为我们的罪下了油...水锅...
-* In Spaghetti we trust.
-* RAmen.
+* Flying Spaghetti Monster ( 飞天面条神教 )  
+☀ 神爱世人，祂为我们的罪下了油...水锅...  
+☀ In Spaghetti we trust.  
+☀ RAmen.  
 
 关于本站
 --------
