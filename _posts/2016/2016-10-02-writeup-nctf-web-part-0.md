@@ -30,30 +30,31 @@ tags: NCTF Write-up Web
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/kzrQvlKVMT2YmULi6OdkgLYsaSzNuJwg5cXSNWiZS3s!/r/dAkBAAAAAAAA){: width="80%"}
 
-> 源码:   
-
-```php
-<?php
-$md51 = md5('QNKCDZO');
-$a = @$_GET['a'];
-$md52 = @md5($a);
-if(isset($a))
-{
-	if ($a != 'QNKCDZO' && $md51 == $md52) 
+	> 源码:   
+	> 
+	> ```php    
+	<?php
+	$md51 = md5('QNKCDZO');
+	$a = @$_GET['a'];
+	$md52 = @md5($a);
+	if(isset($a))
 	{
-    	echo "nctf{*****************}";
-	} 
-	else 
-	{
-    	echo "false!!!";
+		if ($a != 'QNKCDZO' && $md51 == $md52) 
+		{
+    		echo "nctf{*****************}";
+		} 
+		else 
+		{
+    		echo "false!!!";
+		}
 	}
-}
-else
-{
-	echo "please input a";
-}
-?>
-```
+	else
+	{
+		echo "please input a";
+	}
+	?>
+	> ```
+
 > 题目链接 [http://115.28.150.176/md5/index.php](http://115.28.150.176/md5/index.php) 
 
 * 题解:  
@@ -74,18 +75,14 @@ else
 * 题解:  
 浏览器直接 F12, 看网页源码:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/aBoxjkmkGkk0eEDDAPJrbjwzAJ7hiUCtCdh67nI*WLo!/r/dAQBAAAAAAAA){: width="100%"}  
-很明显, 'zhimakaimen'的长度是 11 ,而输入框是: 
-
-```html
-<input type="password" value="" name="text1" maxlength="10">
-``` 
+很明显, 'zhimakaimen'的长度是 11 ,而输入框是:  
+	```html
+	<input type="password" value="" name="text1" maxlength="10">
+	```  
 maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输入不进去的, 自然也就开不了门.
-
 所以直接把 maxlength 属性改成大于等于 11 即可.
-
-如图:
-![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/gGtEvOfU0FaZowBVEn.EbyhQLgbdZMNcm2XGS39U*RY!/r/dAgBAAAAAAAA){: width="100%"}
-
+如图:  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/gGtEvOfU0FaZowBVEn.EbyhQLgbdZMNcm2XGS39U*RY!/r/dAgBAAAAAAAA){: width="100%"}  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/2R1gzdsSa9d5PSmsupxNzHTsku47l39tUVPQOhrXL2U!/r/dMYAAAAAAAAA){: width="100%"}
 
 * flag：nctf{follow_me_to_exploit}
