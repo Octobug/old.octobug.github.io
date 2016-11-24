@@ -15,25 +15,25 @@ tags: front-end
 晒下结果, 如你所见, 模样是一个低配版新浪微博...
 
 1. 注册
-![](http://a3.qpic.cn/psb?/V11aPCg53lyBwf/zcbgvGNj.vA10DDypMpTb6RqsOqG7pHepxgexRZ.Sc8!/b/dNoAAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/KTh*ylgrZA2CtWqXAybKJn54XfLAh4o5ZHoro9*hcFg!/r/dAkBAAAAAAAA){: width="100%"}
 
 2. 头像
-![](http://a3.qpic.cn/psb?/V11aPCg53lyBwf/w7mo69Cz7I5*X0lf3c0oavWDCljcl3kwmx1JsShINkI!/b/dAoBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/3b6SdYOyYkV.Ebkqcr40P0SbKpae40AcrbuHg.34fjU!/r/dAkBAAAAAAAA){: width="100%"}
 
 3. 登录
-![](http://a1.qpic.cn/psb?/V11aPCg508qwno/NoyuhQzzq5hDXpR0vSdkV4G89DgoDhbJvR8Ab1sW25I!/b/dAsBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/hAHhw1TUfQ4o*wKq5SqNviWFv0N9UiKFZPjmXn49t8o!/r/dHIBAAAAAAAA){: width="100%"}
 
 4. 发布
-![](http://a1.qpic.cn/psb?/V11aPCg508qwno/5noDkTbsqQBdxtLNwmc85NrPjAH8Wg7fdFMGpPKsf24!/b/dHcBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/97*qoJNcAbc*je6Vz5moilpRP1zhQm3YEmmRxWzz420!/r/dHcBAAAAAAAA){: width="100%"}
 
 5. 评论
-![](http://a2.qpic.cn/psb?/V11aPCg508qwno/mrIwogfm*66VsMDmxj8sMoBof*ZCGc47FqjhRsvQ1zQ!/b/dAwBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/rkPLiJcKzx7f5AFgGpQboL57hUHfKs*PaL.QW93cEqY!/r/dAoBAAAAAAAA){: width="100%"}
 
 6. 粉丝列表
-![](http://a3.qpic.cn/psb?/V11aPCg508qwno/v1pzkYUlzo8DhdbBNob9kjjB66w7d9GXriVO0xnZN0s!/b/dAoBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/ZgjbPBidMNfn.eFBYSVgQgRHldMPF6n57dOdzs8quvQ!/r/dHABAAAAAAAA){: width="100%"}
 
 7. 搜索
-![](http://a2.qpic.cn/psb?/V11aPCg508qwno/sRZgeXZTFaliwNitflO3DNj8Aw8BbSUWLe6CgqyMHHA!/b/dAkBAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/oGKoHcd.LF3ya*6O5H0QhG8KuT2Qo6U8sDIWXsBO9Rs!/r/dAkBAAAAAAAA){: width="100%"}
 
 8. 点赞榜(样子是抄腾讯微博的粉丝列表)
-![](http://a3.qpic.cn/psb?/V11aPCg508qwno/wcKLP5cQ0LMrO7D96wi8nUdGBC2jKXtpIq.HuqlyeQw!/b/dI8AAAAAAAAA){: width="100%"}
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/34XPJip9dvB.jke5*0FCHMTP*ce6nG5o36ZFHitt3pU!/r/dI8AAAAAAAAA){: width="100%"}
