@@ -15,10 +15,10 @@ tags: front-end
 晒下结果, 如你所见, 模样是一个低配版新浪微博...
 
 1. 注册
-![](http://a3.qpic.cn/psb?/V11aPCg508qwno/zcbgvGNj.vA10DDypMpTb6RqsOqG7pHepxgexRZ.Sc8!/b/dNoAAAAAAAAA){: width="100%"}
+![](http://a3.qpic.cn/psb?/V11aPCg53lyBwf/zcbgvGNj.vA10DDypMpTb6RqsOqG7pHepxgexRZ.Sc8!/b/dNoAAAAAAAAA){: width="100%"}
 
 2. 头像
-![](http://a3.qpic.cn/psb?/V11aPCg508qwno/w7mo69Cz7I5*X0lf3c0oavWDCljcl3kwmx1JsShINkI!/b/dAoBAAAAAAAA){: width="100%"}
+![](http://a3.qpic.cn/psb?/V11aPCg53lyBwf/w7mo69Cz7I5*X0lf3c0oavWDCljcl3kwmx1JsShINkI!/b/dAoBAAAAAAAA){: width="100%"}
 
 3. 登录
 ![](http://a1.qpic.cn/psb?/V11aPCg508qwno/NoyuhQzzq5hDXpR0vSdkV4G89DgoDhbJvR8Ab1sW25I!/b/dAsBAAAAAAAA){: width="100%"}
