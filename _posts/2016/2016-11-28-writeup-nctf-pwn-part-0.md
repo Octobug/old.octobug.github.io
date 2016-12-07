@@ -11,13 +11,13 @@ tags: NCTF Write-up Pwn
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/BPjg8J*9v7FTCfDdHLcxV*PlLzdRBJA3iaUJ6qT5H04!/r/dHkBAAAAAAAA){: width="80%"}  
 
-	> nc 115.28.79.166 5555
-	> 提交格式为flag{************}
-	> 尝试不再Naive
-	> 然后将输入发送至115.28.79.166的5555端口，获取flag
-	> 
-	> Tags: gets, 栈溢出 
-	> [test](http://ctf.nuptzj.cn/static/uploads/785732eaf09a34c8e3664ce68d7c8e54/test)  [test.c](http://ctf.nuptzj.cn/static/uploads/ead01a3082b1c650ae75089c3634b7a5/test.c)
+	> nc 115.28.79.166 5555  
+	> 提交格式为flag{************}  
+	> 尝试不再Naive  
+	> 然后将输入发送至115.28.79.166的5555端口，获取flag  
+	>   
+	> Tags: gets, 栈溢出   
+	> [test](http://ctf.nuptzj.cn/static/uploads/785732eaf09a34c8e3664ce68d7c8e54/test)  [test.c](http://ctf.nuptzj.cn/static/uploads/ead01a3082b1c650ae75089c3634b7a5/test.c)  
 
 * 题解:  
 先来看看 test.c: 
