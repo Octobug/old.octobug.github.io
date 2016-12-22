@@ -81,7 +81,8 @@ tags: NCTF Write-up Web
 	> Parse error: syntax error, unexpected '{' in D:\Course\CTF\NCTF\php decode\decode.php(16) : eval()'d code on line 2  
 
 	那么回来看看出错的代码: `eval(CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));` 
-	eval 的参数必须是一个合法的 php 语句, 那么还是先把 eval 的参数输出看看再说, 代码改成`echo CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));`, 结果输出如下:
+	eval 的参数必须是一个合法的 php 语句, 那么还是先把 eval 的参数输出看看再说, 代码改成
+	`echo CLsI("+7DnQGFmYVZ+eoGmlg0fd3puUoZ1fkppek1GdVZhQnJSSZq5aUImGNQBAA=="));`, 结果输出如下:
 
 	> 锘縫hpinfo();  
 	> flag:nctf{gzip_base64_hhhhhh}  
