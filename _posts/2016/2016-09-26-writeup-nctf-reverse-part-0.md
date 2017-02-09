@@ -4,7 +4,7 @@ title: NCTF 逆向 2 题题解
 tags: NCTF Write-up Reverse
 ---
 
-* 目录：
+* 目录: 
 {:toc}
 
 ### 80 Hello,RE! 
@@ -16,7 +16,7 @@ tags: NCTF Write-up Reverse
 	> 
 	> 格式为flag{*****}包含flag{}提交  
 	> 
-	> 参考资料：  
+	> 参考资料:   
 	> 《IDA Pro 权威指南》  
 	> 各种CTF比赛的逆向部分的writeup   
 
@@ -32,7 +32,7 @@ tags: NCTF Write-up Reverse
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/YxiPhDHhLr9rT3zS.*636Ke8nXcFHHN52Cv1Ios5p3s!/r/dI8AAAAAAAAA){: width="100%"} 
 很明显, flag 就是 v5 - v11 组成的逆序字符串, v12 的`'\0'`是 C 语言中字符串的结束符号. 
 
-* flag：flag{Welcome_To_RE_World!}
+* flag: flag{Welcome_To_RE_World!}
 <hr>
 
 ### 150 ReadAsm2

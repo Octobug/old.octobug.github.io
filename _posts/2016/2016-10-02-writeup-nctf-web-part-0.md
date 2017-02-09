@@ -9,7 +9,7 @@ tags: NCTF Write-up Web
 
 这几题很简单, 但是写 Write-up 不写所有题目, 浑身难受.
 
-* 目录：
+* 目录: 
 {:toc}
 
 ### 50 签到题
@@ -17,13 +17,13 @@ tags: NCTF Write-up Web
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/YZKk.MnhsHV20m2faJoUnCwavg7I24ae3SFgKV5jj*0!/r/dAkBAAAAAAAA){: width="80%"}  
 
 	> 这一定是最简单的  
-	> 传送门：[题目地址](http://chinalover.sinaapp.com/web1/)   
+	> 传送门: [题目地址](http://chinalover.sinaapp.com/web1/)   
 
 * 题解:  
 浏览器直接 F12, 看网页源码:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/M*eMT5pfE2PSGyfMhVTsK4a8MZ4yb3Lgi1Fq.kpD9iw!/r/dAQBAAAAAAAA){: width="100%"}
 
-* flag：nctf{flag_admiaanaaaaaaaaaaa}
+* flag: nctf{flag_admiaanaaaaaaaaaaa}
 <hr>
 
 ### 50 md5 collision 
@@ -63,14 +63,14 @@ tags: NCTF Write-up Web
 题目中的解答已经说得很清楚, '240610708' 与 'QNKCDZO' md5 之后的值都是 `0e` 开头, 后面都是数字, 这种格式是浮点数( 科学计数法 ), 而 0 的 10^N 次方是 0 , 所有最后两串 md5 的 == 运算是相等的. 如果要比较的是字符串, 应当使用 === 运算. 
 访问 [http://115.28.150.176/md5/index.php?a=240610708 ](http://115.28.150.176/md5/index.php?a=240610708) 可得到 flag.
 
-* flag：nctf{md5_collision_is_easy}
+* flag: nctf{md5_collision_is_easy}
 <hr>
 
 ### 50 签到2
 * 题目:  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/KolXVNeNqcO3QaTLYumRlsLW1HIQ2ScY4R5tjcE9jlg!/r/dAoBAAAAAAAA){: width="80%"}
 
-	> 地址：[来源：网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)   
+	> 地址: [来源: 网络攻防大赛](http://teamxlc.sinaapp.com/web1/02298884f0724c04293b4d8c0178615e/index.php)   
 
 * 题解:  
 浏览器直接 F12, 看网页源码:
@@ -85,7 +85,7 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/gGtEvOfU0FaZowBVEn.EbyhQLgbdZMNcm2XGS39U*RY!/r/dAgBAAAAAAAA){: width="100%"}  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/2R1gzdsSa9d5PSmsupxNzHTsku47l39tUVPQOhrXL2U!/r/dMYAAAAAAAAA){: width="100%"}
 
-* flag：nctf{follow_me_to_exploit}
+* flag: nctf{follow_me_to_exploit}
 <hr>
 
 ### 100 这题不是WEB
@@ -93,7 +93,7 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/dxY57IUS319An4hxEN90cJCIwPhlxnKAh4MwuC6b84I!/r/dHcBAAAAAAAA){: width="80%"}
 
 	> 真的，你要相信我！这题不是WEB   
-	> 传送门：[题目地址](http://chinalover.sinaapp.com/web2/index.html).   
+	> 传送门: [题目地址](http://chinalover.sinaapp.com/web2/index.html).   
 
 * 题解:  
 这题是真坑, 好在不难. 打开地址, 页面是这样的: 
@@ -102,7 +102,7 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 下载下来, 改成 rar 后缀, winrar 识别不了, 所以试试直接看文件内容, 用记事本打开, 结果...  
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/nqyymPfUP2Mo9Fov5Ps6tM1VJYiNsQZo8iF6UcLdRmA!/r/dOQAAAAAAAAA){: width="100%"}  
 
-* flag：nctf{photo_can_also_hid3_msg}
+* flag: nctf{photo_can_also_hid3_msg}
 <hr>
 
 ### 100 层层递进
@@ -117,7 +117,7 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 妥妥的脑洞题, 扫了一下也没发现什么其他网址, F12 看网站结构, flag是:    
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/TF6EH6A5GCI9OF0N*dgUxXhFN5T7h1SudXN43cWTRGg!/r/dAkBAAAAAAAA){: width="100%"}  
 
-* flag：nctf{this_is_a_fl4g}
+* flag: nctf{this_is_a_fl4g}
 <hr>
 <div style="float:right">
 	<a href="/2016/12/22/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）</a>   

@@ -4,7 +4,7 @@ title: NCTF 隐写术 3 题题解
 tags: NCTF Write-up Steganography
 ---
 
-* 目录：
+* 目录: 
 {:toc}
 
 ### 50 女神 
@@ -18,7 +18,7 @@ tags: NCTF Write-up Steganography
 分值这么低, 正常思路是解压成rar, 或者直接看二进制内容. 将图片另存到本地, 用记事本打开图片, 搜nctf: 
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/eL3UfGlFbcT60bvzKPgxLKCO0WztgKo8xvYkc91pTns!/r/dHABAAAAAAAA){: width="100%"}
 
-* flag：nctf{pic_yin_xie_shu}
+* flag: nctf{pic_yin_xie_shu}
 <hr>
 
 ### 100 图种 
@@ -35,7 +35,7 @@ tags: NCTF Write-up Steganography
 2. 将 gif 后缀改为 zip, 解压得到另一张有文字的 gif, 用 Ulead GIF Animator 打开, 最后一帧最后一句话的首字母即是 flag:
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/ZfprmyiGnS.V8v1thae8b8D7YbBDr5PJE79LP9j2hdU!/r/dNwAAAAAAAAA){: width="80%"} 
 
-* flag：nctf{dssdcmlw}
+* flag: nctf{dssdcmlw}
 <hr>
 
 ### 400 丘比龙De女神 

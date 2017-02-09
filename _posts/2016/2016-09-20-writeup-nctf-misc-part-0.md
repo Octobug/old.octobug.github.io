@@ -4,7 +4,7 @@ title: NCTF Misc 2 题题解
 tags: NCTF Write-up Misc
 ---
 
-* 目录：
+* 目录: 
 {:toc}
 
 ### 50 easy wireshark 
@@ -24,7 +24,7 @@ tags: NCTF Write-up Misc
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/FQOhD*lLRP87txf2Yc7MIFssNb7M*irOsbKtEnJEX0g!/r/dG8BAAAAAAAA){: width="100%"} 
 或者直接访问 [http://115.28.150.176/misc/flag.php](http://115.28.150.176/misc/flag.php) 也可得到 flag. 
 
-* flag：nctf{wireshark_is_easy}
+* flag: nctf{wireshark_is_easy}
 <hr>
 
 ### 200 wireshark 2

@@ -4,7 +4,7 @@ title: NCTF Pwn 1 题题解
 tags: NCTF Write-up Pwn
 ---
 
-* 目录：
+* 目录: 
 {:toc}
 
 ### 100 When Did You Born
@@ -85,4 +85,4 @@ tags: NCTF Write-up Pwn
 	来获取 flag.
 
 
-* flag：flag{gets_is_dangerous_+1s}
+* flag: flag{gets_is_dangerous_+1s}

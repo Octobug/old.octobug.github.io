@@ -16,11 +16,10 @@ icon: fa-user
 爱好
 ---
 
-* 手残素描党
-* 经常混迹<a href="http://www.guokr.com/i/0466223402/" target="_blank">『果壳』</a>, <a href="http://www.zhihu.com/people/donotbiteme" target="_blank">『知乎』</a>
-* <a href="http://www.douban.com/people/bitemebitch/" target="_blank">『豆瓣』</a>
-		资深打分员
-* <del>喜欢摄影，暂时荒废</del>
+* 手残素描党  
+* <a href="http://www.douban.com/people/bitemebitch/" target="_blank">『豆瓣』</a>资深打分员  
+* <a href="https://www.gitbook.com/@octobug">GitBook 用户</a>  
+* <del>喜欢摄影，暂时荒废</del>  
 
 信仰
 ---
