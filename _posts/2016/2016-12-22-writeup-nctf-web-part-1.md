@@ -134,11 +134,3 @@ tags: NCTF Write-up Web
 	> ```  
 
 * flag: nctf{edulcni_elif_lacol_si_siht}  
-<hr>
-
-<div style="display:inline;float:left">  
-	<a href="/2016/10/02/writeup-nctf-web-part-0.html">上 • NCTF Web 5 题题解（Part 0）</a>  
-</div>  
-<div style="display:inline;float:right">  
-	<a href="/2017/02/09/writeup-nctf-web-part-2.html">下 • NCTF Web 5 题题解（Part 2）</a>
-</div>

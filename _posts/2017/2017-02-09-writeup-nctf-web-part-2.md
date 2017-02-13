@@ -67,11 +67,3 @@ tags: NCTF Write-up Web
 
 
 * flag: 
-<hr>
-
-<div style="display:inline;float:left">  
-	<a href="/2016/12/22/writeup-nctf-web-part-1.html">上 • NCTF Web 5 题题解（Part 1）</a>
-</div>  
-<div style="display:inline;float:right">  
-	<a href="/2016/12/22/writeup-nctf-web-part-3.html">下 • NCTF Web 5 题题解（Part 3）</a>
-</div>

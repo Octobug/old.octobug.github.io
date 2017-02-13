@@ -118,7 +118,3 @@ maxlength 属性是 10, 直接输入的话'zhimakaimen'最后一个字符是输�
 ![](http://r.photo.store.qq.com/psb?/V11aPCg53lyBwf/TF6EH6A5GCI9OF0N*dgUxXhFN5T7h1SudXN43cWTRGg!/r/dAkBAAAAAAAA){: width="100%"}  
 
 * flag: nctf{this_is_a_fl4g}
-<hr>
-<div style="float:right">
-	<a href="/2016/12/22/writeup-nctf-web-part-1.html">下 • NCTF Web 5 题题解（Part 1）</a>   
-</div>
