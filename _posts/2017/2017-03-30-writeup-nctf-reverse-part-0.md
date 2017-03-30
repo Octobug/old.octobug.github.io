@@ -68,7 +68,6 @@ tags: NCTF Write-up Reverse
 	> [2.asm](http://ctf.nuptzj.cn/static/uploads/a480ff52cdbc70bd1443763f27f35279/2.asm)  
 
 * 题解:  
-
 调用 func 时第一个参数是引用 input, 第二个参数是整数28(即 str 的长度), 根据 System V AMD64 ABI 调用约定, 这两个参数会存在寄存器 rdi(input) 和 rsi(28).  
 以下是 `2.asm` 的注释版: 
 
