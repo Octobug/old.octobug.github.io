@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
-<head>
-  <meta charset="utf-8">
-  <meta name="keywords" content="CTF, writeup, web, reverse" />
-  <!-- 外部样式 -->
-  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}css/frame.css">
-  <link rel="shortcut icon" href="{{ site.baseurl }}images/favicon.png">
-  <script src="{{ site.baseurl }}js/viewimg.js"></script>
-  <script src="{{ site.baseurl }}js/showQRcode.js"></script>
-  <title>{{ page.title }} | More than codes</title>
-</head>
-<body>
-  <!-- 侧边栏 -->
-  <div class="sidebar">
-    <a href="{{ site.baseurl }}">
-      <img id="avatar" width="80" height="80" style="border-radius: 50%;border: 1px solid #E1E0FE" src="{{ site.baseurl }}images/avatar.png"></a>
-    <h2>
-      <a href="{{ site.baseurl }}">bITeMe</a>
-    </h2>
-    <p style="border-bottom: gray 1px dashed;">◎ In Spaghetti we trust.</p>
-    <ul>
-      <li>
-        <a href="{{ site.baseurl }}">时间线</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}tags.html">标签</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}archives.html">归档</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}links.html">链接</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}about.html">关于</a>
-      </li>
-    </ul>
-  </div>
-  <!-- 侧边栏结束 -->
-  <!-- 主体 -->
-  <div class="postlist">{{ content }}</div>
-  <!-- 主体结束 -->
-  <!-- 页脚 -->
-  <div class="footer">
-    © 2015-{{ site.time | date:"%Y" }} <a href="">bITeMe</a> 
-    |&nbsp;Powered by
-    <a href="http://jekyllrb.com/">Jekyll&nbsp;</a>|
-    <!--图标链接-->
-    <link rel="stylesheet" href="{{ site.baseurl }}css/font-awesome.css">
-    <a href="{{ site.author.github }}" target="_blank">
-      <i class="fa fa-github fa-lg"> </i>
-    </a>
-    <a href="{{ site.author.weibo }}" target="_blank">
-      <i class="fa fa-weibo fa-lg"> </i>
-    </a>
-    <a href="{{ site.author.qzone }}" target="_blank">
-      <i class="fa fa-star-o fa-lg"> </i>
-    </a>
-    <a href="javascript:void(0);" onclick="showWin();return false;">
-      <i class="fa fa-wechat fa-lg"></i>
-    </a>
-    <!--图标链接结束-->
-  </div>
-  <div id="bgDiv"></div>
-  <div id="msgDiv" align="center"></div>
-</body>
-<!-- 页脚结束 -->
-<!-- gostats 统计 -->
-{% include gostats.html %}
-  <script>listenallimg(); </script>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="CTF, writeup, web, reverse" />
+    <!-- 外部样式 -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="{{ site.baseurl }}/css/frame.css"
+    />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.png" />
+    <script src="{{ site.baseurl }}/js/viewimg.js"></script>
+    <script src="{{ site.baseurl }}/js/showQRcode.js"></script>
+    <title>{{ page.title }} | More than codes</title>
+  </head>
+  <body>
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+      <a href="{{ site.baseurl }}/">
+        <img
+          id="avatar"
+          width="80"
+          height="80"
+          style="border-radius: 50%;border: 1px solid #E1E0FE"
+          src="{{ site.baseurl }}/images/avatar.png"
+      /></a>
+
+      <h2>
+        <a href="{{ site.baseurl }}/">bITeMe</a>
+      </h2>
+      <p style="border-bottom: gray 1px dashed;">◎ In Spaghetti we trust.</p>
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}/">时间线</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/tags.html">标签</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/archives.html">归档</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/links.html">链接</a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/about.html">关于</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 侧边栏结束 -->
+    <!-- 主体 -->
+    <div class="postlist">{{ content }}</div>
+    <!-- 主体结束 -->
+    <!-- 页脚 -->
+    <div class="footer">
+      © 2015-{{ site.time | date: "%Y" }} <a href="">bITeMe</a>
+      |&nbsp;Powered by
+      <a href="http://jekyllrb.com/">Jekyll&nbsp;</a>|
+      <!--图标链接-->
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css" />
+      <a href="{{ site.author.github }}" target="_blank">
+        <i class="fa fa-github fa-lg"> </i>
+      </a>
+      <a href="{{ site.author.weibo }}" target="_blank">
+        <i class="fa fa-weibo fa-lg"> </i>
+      </a>
+      <a href="{{ site.author.qzone }}" target="_blank">
+        <i class="fa fa-star-o fa-lg"> </i>
+      </a>
+      <a href="javascript:void(0);" onclick="showWin();return false;">
+        <i class="fa fa-wechat fa-lg"></i>
+      </a>
+      <!--图标链接结束-->
+    </div>
+    <div id="bgDiv"></div>
+    <div id="msgDiv" align="center"></div>
+  </body>
+  <!-- 页脚结束 -->
+  <!-- gostats 统计 -->
+  <!-- {# include gostats.html #} -->
+  <script>
+    listenallimg();
+  </script>
 </html>

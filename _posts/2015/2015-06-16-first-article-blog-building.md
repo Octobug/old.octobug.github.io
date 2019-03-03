@@ -57,7 +57,7 @@ N久前看到<a href="http://lastavenger.github.io" target="_blank"> 谷月轩 <
 代码片段:
 
 ```html
-<link rel="stylesheet" href="{{ site.baseurl }}css/font-awesome.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css">
 <a href="{{ site.author.github }}" target="_blank">
     <i class="fa fa-github fa-lg"></i>&nbsp;
 </a>
