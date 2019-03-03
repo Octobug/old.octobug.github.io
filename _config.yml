@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: //
 gems: [jekyll-paginate]
 paginate: 7
 paginate_path: "page:num"
@@ -11,7 +11,7 @@ author:
   github: http://github.com/octobug
   weibo: http://weibo.com/qq362499939
   wooyun: http://www.wooyun.org/whitehats/bitemebitch
- # qzone: http://user.qzone.qq.com/362499939
+  qzone: http://user.qzone.qq.com/362499939
   weixin: images/weixin_qrcode.png
 
 #markdown: redcarpet

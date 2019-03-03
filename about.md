@@ -9,17 +9,14 @@ icon: fa-user
 ---
 
 * bITeMe<del>bitch</del> & Octobug
-* 真 · 码农，毕业于某农业大学软件工程，2017
 * CTF 酱油户
 * 脚本小子
 
 爱好
 ---
 
-* 手残素描党  
-* <a href="http://www.douban.com/people/bitemebitch/" target="_blank">『豆瓣』</a>资深打分员  
+* 手残素描党   
 * <a href="https://www.gitbook.com/@octobug">GitBook 用户</a>  
-* <del>喜欢摄影，暂时荒废</del>  
 
 信仰
 ---
